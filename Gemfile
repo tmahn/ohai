@@ -8,6 +8,8 @@ gemspec
 gem "rspec_junit_formatter", :git => 'https://github.com/sj26/rspec_junit_formatter.git',
                              :ref => "147836c41fab23ff7b92806f34122c8e5f2ddcad"
 
+gem 'ffi', :git => 'https://github.com/tmahn/ffi.git'
+
 group :development do
   gem "chef", github: "opscode/chef", branch: "master"
 
